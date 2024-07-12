@@ -1,4 +1,3 @@
-0-uniq_users.sql
 -- This script ranks country origins of bands, ordered
 -- by the number of (non-unique) fans
 
