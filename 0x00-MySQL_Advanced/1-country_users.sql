@@ -1,4 +1,3 @@
-0-uniq_users.sql
 -- This script creates table users following these requirements:
 -- id, email, name, country(enumeration of US, CO and TN)
 
