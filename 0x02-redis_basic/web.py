@@ -1,4 +1,3 @@
-exercise.py
 #!/usr/bin/env python3
 """Web cache and tracker"""
 import requests
