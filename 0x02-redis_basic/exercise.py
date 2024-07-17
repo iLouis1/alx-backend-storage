@@ -1,4 +1,3 @@
-exercise.py
 #!/usr/bin/env python3
 """This module declares redis class and methods"""
 import redis
