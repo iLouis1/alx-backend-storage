@@ -1,5 +1,6 @@
+exercise.py
 #!/usr/bin/env python3
-"""Web cache and tracker"""
+"""This is web cache and tracker"""
 import requests
 import redis
 from functools import wraps
@@ -8,7 +9,7 @@ store = redis.Redis()
 
 
 def count_url_access(method):
-    """This decorator counts how many times
+    """ Decorator counts how many times
     a URL is accessed """
     @wraps(method)
     def wrapper(url):
@@ -29,6 +30,6 @@ def count_url_access(method):
 
 @count_url_access
 def get_page(url: str) -> str:
-    """This returns HTML content of a url """
+    """ Returns HTML content of a url """
     res = requests.get(url)
     return res.text
